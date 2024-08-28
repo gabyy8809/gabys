@@ -1,18 +1,60 @@
+body{
+ 
+color: blueviolet;
+background: rgb(146, 146, 226);
+font-family:"inter tight, sans-serif";
+
+margin:0px;
+}
+
+header{
+
+border-bottom:solid 2px blanchedalmond;
+padding: 20px;
+font-size: 32px;
+color: rgb(238, 182, 97);
+}
+
+.chamada{
+
+background: rgb(238, 182, 97);
+padding-bottom: 80px;
+display: flex;
+justify-content: center;
+}
 
 
+.chamada-texto{
+  margin-right: 5%;
+}
 
+h1{
 
+font: size 40px;;
 
-  body{
+}
 
+p{
 
-    color:blueviolet;
-    background:blanchedalmond
+font-size: 20px;
 
-  }
+}
+img{
+height: 200px;
+}
 
+.categoria-videos{
+display: flex;
 
+overflow-x:auto;
 
+gap: 10px;
 
+}
+.categoria{
+
+  padding: left 20px; ;
+  padding: right 20px; ;
+}
 
 
